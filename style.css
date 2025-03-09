@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.logo {
+    width: 250px;
+}
+
+a {
+    color: rgb(160, 0, 160);
+    font-size: 20px;
+}
+
+.main-section-1-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-card {
+    width: 767px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.button {
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.main-img {
+    width: 533px;
+}
+
+.linkku {
+    color: white;
+}
+
+.card {
+    width: 345px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+    
+}
+
+.main-img-card{
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.allcard{
+    display: flex;
+    gap: 61px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+span{
+    color: (95.2deg, #B90160 2.23%, #2E3192 99.51%);
+}
+
+h4{
+    font-size: 30px;
+}
+
+.section-3{
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+
+}
+
+.koment{
+    background-color: #fff;
+    width: 436px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.posso{
+    width: 100px;
+    position: relative;
+}
+
+.komentti{
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    ul {
+        display: none;
+        gap: 30px;
+
+    }
+
+    .logo {
+        width: 250px;
+        display: flex;
+
+    }
+
+    .main-img {
+        width: 380px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .left-card {
+        width: 767px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .card {
+        width: 594px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 40px 0px #B8005F33;
+        
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .allcard{
+        display: flex;
+        gap: 61px;
+        justify-content: center;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .main-img-card{
+        border-radius: 20px;
+        width: 590px;
+        height: 190px;
+    }
+
+    .komentti{
+        display: flex;
+        padding: 60px 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:320px) {
+
+
+    .logo {
+        width: 183px;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin: 0 auto;
+
+
+    }
+
+    .main-img {
+        width: 380px;
+        display: none;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .left-card {
+        width: 767px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .card {
+        width: 264px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 40px 0px #B8005F33;
+        
+    }
+
+    .main-img-card{
+        border-radius: 20px;
+        width: 260px;
+        
+    }
+
+    .koment{
+        background-color: #fff;
+        width: 267px;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+}
